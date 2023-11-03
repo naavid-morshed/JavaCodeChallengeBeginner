@@ -1,4 +1,4 @@
-package e.panagram;
+package e.pangram;
 
 public class Pangram {
     public static void main(String[] args) {
