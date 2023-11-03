@@ -15,5 +15,6 @@ public class Pangram {
         }
 
         if (alphabetCounter == 26) System.out.println("pangram Found");
+        else System.out.println("Sentence is not a pangram");
     }
 }

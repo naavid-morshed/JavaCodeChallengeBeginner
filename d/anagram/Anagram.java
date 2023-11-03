@@ -5,6 +5,9 @@ public class Anagram {
         String str1 = "binary";
         String str2 = "brainy";
 
+        // Did not need to import any packages but none of the original strings are
+        // preserved, also needed to run nested for loop
+        // Also had to reduce counter each time string length is reduced
         for (int count = 0; count < str2.length(); count++) {
             for (int counter = 0; counter < str1.length(); counter++) {
                 if (str1.charAt(counter) == str2.charAt(count)){
