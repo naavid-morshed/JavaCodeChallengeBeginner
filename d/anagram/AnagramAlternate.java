@@ -14,7 +14,7 @@ public class AnagramAlternate {
         }
     }
 
-    public static boolean anagramChecker(String str1, String str2) {
+    public static boolean anagramChecker(final String str1, final String str2) {
         if (str1.length() != str2.length()) {
             return false; // Anagrams must have the same length
         }
