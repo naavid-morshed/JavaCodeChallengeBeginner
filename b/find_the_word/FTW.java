@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class FTW {
     public static void main(String[] args) {
         Scanner stdIn = new Scanner(System.in);
+
         String sentence = "Man bites dog! dog fights man!";
         String targetWord = "";
 
