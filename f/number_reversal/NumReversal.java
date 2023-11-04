@@ -18,6 +18,7 @@ public class NumReversal {
             reversedNum += (num % 10) * count;
             num = num / 10;
         }
+
         num = reversedNum;
 
         System.out.println("After inversion : " + num);
