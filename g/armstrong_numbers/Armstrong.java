@@ -21,7 +21,7 @@ public class Armstrong {
         Collections.reverse(numArr);
 
         for (int n : numArr) {
-            num += (int)Math.pow(n,numCount);
+            num += (int)Math.pow(n, numCount);
         }
 
         if (num == total) System.out.println(num + " is an armstrong number.");

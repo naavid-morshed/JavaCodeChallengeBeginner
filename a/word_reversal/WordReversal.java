@@ -4,10 +4,10 @@ public class WordReversal {
     public static void main(String[] args) {
         Scanner stdIn = new Scanner(System.in);
 
-//        System.out.print("Write a sentence : ");
-//        String sentence = stdIn.nextLine();
+        System.out.print("Write a sentence : ");
+        String sentence = stdIn.nextLine();
 
-        String sentence = "Dog bites man bites dog fights man.";
+//        String sentence = "Dog bites man bites dog fights man.";
         String reversed = "";
         String tempWordHolder = "";
         String punctuation = "";

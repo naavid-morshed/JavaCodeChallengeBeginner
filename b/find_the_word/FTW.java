@@ -4,7 +4,9 @@ public class FTW {
     public static void main(String[] args) {
         Scanner stdIn = new Scanner(System.in);
 
-        String sentence = "Man bites dog! dog fights man!";
+        System.out.print("Type your sentence : ");
+        String sentence = stdIn.nextLine();
+//        String sentence = "Man bites dog! dog fights man!";
         String targetWord = "";
 
         System.out.println(sentence);
