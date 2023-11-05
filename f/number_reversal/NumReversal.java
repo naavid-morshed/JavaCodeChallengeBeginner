@@ -6,11 +6,11 @@ public class NumReversal {
         System.out.println("Your number : " + num);
 
         int reversedNum = 0;
-        int temp = num;
+        int tempDigit = num;
         int counter = -1;
 
-        while (temp != 0) {
-            temp = temp / 10;
+        while (tempDigit != 0) {
+            tempDigit = tempDigit / 10;
             counter++;
         }
 
