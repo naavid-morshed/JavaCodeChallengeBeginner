@@ -6,10 +6,10 @@ public class ProductMaximizer {
 
 
         System.out.print("First Array size? ");
-        int maxOfArr1 = initializeArrAndGetMax(stdIn, 0);
+        int maxOfArr1 = initializeArrAndGetMax(stdIn, -98);
 
         System.out.print("Second Array size? ");
-        int maxOfArr2 = initializeArrAndGetMax(stdIn, 0);
+        int maxOfArr2 = initializeArrAndGetMax(stdIn, -99);
 
         System.out.println("Result : " + maxOfArr1 + " X " + maxOfArr2 + " = " + maxOfArr1*maxOfArr2);
     }
